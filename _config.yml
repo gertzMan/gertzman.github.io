@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: 'https://gertzman.github.io'
 
 github:
   username: github_username # change to your GitHub username
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Adam Gertzkin
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -150,12 +150,12 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: ''
 
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
+  footnote_backlink: '&#8617;&#xfe0e;'
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
@@ -173,7 +173,7 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: '' # An empty string here means all files in the project
       type: posts
     values:
       layout: post
@@ -187,7 +187,7 @@ defaults:
     values:
       comments: false
   - scope:
-      path: ""
+      path: ''
       type: tabs # see `site.collections`
     values:
       layout: page
@@ -206,15 +206,15 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
+  - '*.gem'
+  - '*.gemspec'
   - docs
   - tools
   - README.md
   - LICENSE
   - purgecss.js
-  - "*.config.js"
-  - "package*.json"
+  - '*.config.js'
+  - 'package*.json'
 
 jekyll-archives:
   enabled: [categories, tags]
